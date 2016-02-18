@@ -48,26 +48,6 @@ switch ($maincat){
 
         }
         break;
-//        $SubCat=($Drinks ['items']);
-//        $beer=($SubCat['Beers']);
-
-//        foreach($SubCat as $cat)
-        {
-
-        }
-
-//        foreach($SubCat as $cat)
-//        {
-//            echo "<h2>".$item['title']."</h2>";
-//            echo "<a href='page.php?category=Drinks'><img src=".$item['image']."></a>";
-//        }
-//        foreach($Cocktails as $item)
-////        foreach($SubCat as $cat)
-//        {
-//            echo "<h2>".$item['title']."</h2>";
-//            echo "<a href='page.php?category=Drinks'><img src=".$item['image']."></a>";
-//        }
-
 
     case "Beers":
         $Beers=($Menu['Drinks']['items']['Beers']['items']);

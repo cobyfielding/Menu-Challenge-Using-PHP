@@ -15,7 +15,7 @@ session_start();
 
 ?>
 <body>
-<h1>Applebee's Menu</h1>
+<h1><img src="images/logo.png" alt=""></h1>
 
 <div class="container">
     <div class="row">
@@ -36,14 +36,6 @@ session_start();
             </h3>
         </div>
         <div class="col-md-4 portfolio-item">
-            <a href="page.php?category=Appetizer">
-                <img class="img-responsive" src="images/barSnacks.jpg" alt="">
-            </a>
-            <h3>
-                <a href="page.php?category=Appetizer">Apps and Bar Snacks</a>
-            </h3>
-        </div>
-        <div class="col-md-4 portfolio-item">
             <a href="page.php?category=BetterForYou">
                 <img class="img-responsive" src="images/betterforyou.jpg" alt="">
             </a>
@@ -51,6 +43,14 @@ session_start();
                 <a href="page.php?category=BetterForYou">Better For You</a>
             </h3>
         </div>
+    <div class="col-md-4 portfolio-item">
+        <a href="page.php?category=Appetizer">
+            <img class="img-responsive" src="images/barSnacks.jpg" alt="">
+        </a>
+        <h3>
+            <a href="page.php?category=Appetizer">Apps and Bar Snacks</a>
+        </h3>
+    </div>
     </div>
     <!-- /.row -->
 
